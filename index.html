@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="./image/Vector.png" alt="Иконка место">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <div class="profile__pole">
+                    <img class="profile__avatar" src="./image/raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="Кот">
+                    <div class="profile__info">
+                        <h1 class="profile__title">Sercan Bolat</h1>
+                        <button type="button" class="profile__edit-button"></button>
+                        <p class="profile__subtitle">Актёр</p>
+                    </div>
+                </div>
+                <button type="button" class="profile__add-button"></button>
+            </section>
+            <section class="elements">
+                    <div class="element">
+                        <img class="element__image" src="./image/burcu-kmSe28NKhQs-unsplash.jpg" alt="Бодрум">
+                        <div class="element__block">
+                            <h2 class="element__title">Бодрум</h2>
+                            <div class="element__like">
+                                <button class="element__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__image" src="./image/dmitry-kropachev-PBjGIZwnflc-unsplash.jpg"
+                            alt="Стамбул">
+                        <div class="element__block">
+                            <h2 class="element__title">Стамбул</h2>
+                            <div class="element__like">
+                                <button class="element__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__image" src="./image/gyde-ru-MdshtB1VOj8-unsplash.jpg" alt="Анталья">
+                        <div class="element__block">
+                            <h2 class="element__title">Анталья</h2>
+                            <div class="element__like">
+                                <button class="element__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__image" src="./image/martin-katler-7uaX2whIkRM-unsplash.jpg" alt="Аланья">
+                        <div class="element__block">
+                            <h2 class="element__title">Аланья</h2>
+                            <div class="element__like">
+                                <button class="element__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__image" src="./image/maxim-berg-JfZNsGD_NKE-unsplash.jpg" alt="Измир">
+                        <div class="element__block">
+                            <h2 class="element__title">Измир</h2>
+                            <div class="element__like">
+                                <button class="element__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__image" src="./image/giuseppe-mondi-OIbcmFyMDbo-unsplash.jpg" alt="Анкара">
+                        <div class="element__block">
+                            <h2 class="element__title">Анкара</h2>
+                            <div class="element__like">
+                                <button class="element__like-button" type="button"></button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__project">© 2023 Mesto Russia</p>
+        </footer>
+        <section class="popup">
+            <div class="popup__container">
+                <button class="popup__close" type="button"></button>
+                <div class="popup__content">
+                    <h3 class="popup__title">Редактировать профиль</h3>
+                    <form name="popup-form" class="popup__form" action="#">
+                        <fieldset class="popup__info">
+                            <input class="popup__input" name="esername" id="name">
+                            <input class="popup__input popup__input-two" name="userjob" id="userjob">
+                            <button class="popup__submit" type="submit">Сохранить</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
