@@ -8,6 +8,7 @@
 * GitHub Pages
 
 **Project Description**
+Проект Metro, является одной из практических работ на обучении ЯндексПрактикум. Представляет собой типовой одностраничный сайт.
 
 **Applied technologies**
 
@@ -19,11 +20,14 @@
 * Работа со шрифтами;
 * Flexbox;
 * Grid-layout;
+* JavaScript;
+* БЭМ;
 * Адаптивная верстка под размеры экранов;
 * БЭМ Nested;
 * Гит.
 
 **Popup**
+![image](https://user-images.githubusercontent.com/121260809/224510163-f91eb5a0-10bd-467f-9059-bb86c3091d58.png)
 
 **Figma**
 * [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
