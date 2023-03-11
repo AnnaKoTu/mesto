@@ -11,9 +11,22 @@
 
 **Applied technologies**
 
+В проекте использованы такие технологии как:
+
+* Флексбокс-вёрстка;
+* Позиционирование;
+* Продвинутая семантика языка HTML;
+* Работа со шрифтами;
+* Flexbox;
+* Grid-layout;
+* Адаптивная верстка под размеры экранов;
+* БЭМ Nested;
+* Гит.
+
 **Popup**
 
 **Figma**
 * [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
 
 **GitHub Pages**
+* [Ссылка на проект GitHub Pages]https://annakotu.github.io/mesto/ 
