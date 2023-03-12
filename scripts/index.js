@@ -4,14 +4,13 @@ const popupOpenButtonElement = document.querySelector('.profile__edit-button');
 console.log(popupOpenButtonElement);
 
 const openPopup = function () {
-popupElement.classList.add('popup__opened');
+popupElement.classList.add('popup_opened');
 };
 
 const closePopup = function () {
-    popupElement.classList.remove('popup__opened');
+    popupElement.classList.remove('popup_opened');
     };
 
-popupOpenButtonElement.addEventListener('click', openPopup);
 popupCloseButtonElement.addEventListener('click', closePopup);
 
 /*togglePopupVisibility();*/
@@ -37,6 +36,8 @@ function handleFormSubmit (evt) {
 
     nameProfile.textContent = nameInput.value;
     jobProfile.textContent = jobInput.value;
+
+    closePopup();
 };
 
 formElement.addEventListener('submit', handleFormSubmit);

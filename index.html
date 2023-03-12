@@ -11,7 +11,7 @@
 <body>
     <div class="page">
         <header class="header">
-            <img class="header__logo" src="./image/Vector.png" alt="Иконка место">
+            <img class="header__logo" src="./image/logo.svg" alt="Иконка место">
         </header>
         <main class="content">
             <section class="profile">
@@ -19,7 +19,7 @@
                     <img class="profile__avatar" src="./image/dmitry-kropachev-PBjGIZwnflc-unsplash.jpg" alt="Кот">
                     <div class="profile__info">
                         <h1 class="profile__title">Sercan Bolat</h1>
-                        <button type="button" class="profile__edit-button"></button>
+                        <button type="button" class="profile__edit-button" aria-label="Редактировать"></button>
                         <p class="profile__subtitle">Актёр</p>
                     </div>
                 </div>
@@ -86,21 +86,21 @@
         <footer class="footer">
             <p class="footer__project">© 2023 Mesto Russia</p>
         </footer>
-        <section class="popup">
+        <div class="popup">
             <div class="popup__container">
                 <button class="popup__close" type="button"></button>
                 <div class="popup__content">
                     <h3 class="popup__title">Редактировать профиль</h3>
                     <form name="popup-form" class="popup__form" action="#">
                         <fieldset class="popup__info">
-                            <input class="popup__input" name="esername" id="name">
-                            <input class="popup__input popup__input-two" name="userjob" id="userjob">
+                            <input class="popup__input popup__input_type_name" name="esername" id="name" placeholder="Имя">
+                            <input class="popup__input popup__input-two" name="userjob" id="userjob" placeholder="Вид деятельности">
                             <button class="popup__submit" type="submit">Сохранить</button>
                         </fieldset>
                     </form>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
     <script src="./scripts/index.js"></script>
 </body>

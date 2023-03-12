@@ -9,7 +9,7 @@
     border: none;
     font: inherit;
     color: inherit;
-    background-image: url(/image/Close\ Icon.png);
+    background-image: url(../../../image/Close\ Icon.svg);
     background-repeat: no-repeat;
     background-color: transparent;
     background-position: center;
@@ -26,6 +26,6 @@
         width: 20px;
         height: 20px;
         top: -36px;
-        right: 8px;
+        right: 2px;
     }
 }
