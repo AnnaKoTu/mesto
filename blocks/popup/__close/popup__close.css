@@ -1,19 +1,16 @@
 .popup__close {
-    position: inherit;
-    margin: 0;
-    padding: 0;
+    position: absolute;
     width: 32px;
     height: 32px;
-    top: -40px;
-    right: -40px;
+    top: -63px;
+    right: 0;
     border: none;
-    font: inherit;
-    color: inherit;
+    transform: translate(calc(100% + 8px),calc(100% - 8px));
     background-image: url(../../../image/Close\ Icon.svg);
     background-repeat: no-repeat;
     background-color: transparent;
-    background-position: center;
-    background-size: cover;
+    background-position: 50%;
+    background-size: contain;
     cursor: pointer;
 }
 
@@ -23,9 +20,9 @@
 
 @media screen and (max-width:768px) {
     .popup__close {
+        top: 0;
         width: 20px;
         height: 20px;
-        top: -36px;
-        right: 2px;
+        transform: translateY(calc(-100% - 16px));
     }
 }
