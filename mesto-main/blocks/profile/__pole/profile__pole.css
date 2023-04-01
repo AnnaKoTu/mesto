@@ -1,9 +1,0 @@
-.profile__pole {
-    display: flex;
-}
-
-@media screen and (max-width:768px) {
-    .profile__pole {
-        flex-direction: column;
-    }
-}
