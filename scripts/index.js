@@ -122,7 +122,7 @@ const cardclone = (card => {
 //Открытие попапа "Новое место"
 
 const profileAddButton = document.querySelector('.profile__add-button');
-const popupCards = document.querySelector('.popup__cards');
+const popupCards = document.querySelector('.popup_cards');
 const popupForm = document.querySelector('.popup__form');
 const popupCloseButton = popupCards.querySelector('.popup__close_card');
 
