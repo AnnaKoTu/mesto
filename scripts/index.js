@@ -159,7 +159,7 @@ saveButton.addEventListener('click', createNewCard);
 
 
 const profileAddButton = document.querySelector('.profile__add-button');
-const popupCards = document.querySelector('.popup__cards');
+const popupCards = document.querySelector('.popup_cards');
 const popupCloseButton = popupCards.querySelector('.popup__close_card');
 
 function openPopupCards() {
