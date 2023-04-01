@@ -1,0 +1,28 @@
+.popup__close {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: -63px;
+    right: 0;
+    border: none;
+    transform: translate(calc(100% + 8px),calc(100% - 8px));
+    background-image: url(../../../image/Close\ Icon.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: 50%;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.popup__close:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width:768px) {
+    .popup__close {
+        top: 0;
+        width: 20px;
+        height: 20px;
+        transform: translateY(calc(-100% - 16px));
+    }
+}
