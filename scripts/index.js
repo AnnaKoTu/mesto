@@ -8,9 +8,9 @@ const profileName = document.querySelector('.profile__title')
 const profileJob = document.querySelector('.profile__subtitle')
 
 // второй попап
-const popupAdd = document.querySelector('#popup-add')
+const popupAdd = document.querySelector('#popupAddCard')
 const popupAddButton = document.querySelector('.profile__add-button')
-const formAdd = popupAdd.querySelector("form[name='popup-form-add']")
+const formAddCard = popupAdd.querySelector("form[name='popup-form-add']")
 const titleInput = popupAdd.querySelector(".popup__input_text_name")
 const urlInput = popupAdd.querySelector(".popup__input_link")
 
@@ -74,14 +74,13 @@ const openPopupEdit = function () {
   }
   
   // Отображение в попапе инпутов
-  function handleFormSubmit(event) {
+  function submitEditProfileForm(event) {
     event.preventDefault();
     profileName.textContent = nameInput.value;
   profileJob.textContent = jobInput.value;
     closePopup(popupProfile);
   };
-  formProfile.addEventListener('submit', handleFormSubmit);
-  //кнопки Создать\Сохранить
+  formProfile.addEventListener('submit', submitEditProfileForm);
   
   // Добавление карточек
   initialCards.forEach(renderCards)
@@ -139,5 +138,4 @@ closeButtons.forEach((button) => {
   button.addEventListener('click', () => closePopup(popup));
 });
 
-formProfile.addEventListener('submit', handleFormSubmit);
-formAdd.addEventListener('submit', handleAddCard);
+formAddCard.addEventListener('submit', handleAddCard);
