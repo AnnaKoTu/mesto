@@ -32,7 +32,7 @@
     <footer class="footer">
         <p class="footer__project">© 2023 Mesto Russia</p>
     </footer>
-    <div class="popup">
+    <div class="popup" id="popup-profile">
         <div class="popup__container">
             <button class="popup__close" type="button"></button>
             <h3 class="popup__title">Редактировать профиль</h3>
@@ -41,16 +41,16 @@
                     <input class="popup__input popup__input_type_name" name="esername" id="name" placeholder="Имя">
                     <input class="popup__input popup__input_type_job" name="userjob" id="userjob"
                            placeholder="Вид деятельности">
-                    <button class="popup__submit" type="button">Сохранить</button>
+                    <button class="popup__submit" type="submit">Сохранить</button>
                 </fieldset>
             </form>
         </div>
     </div>
-    <div class="popup popup_cards">
+    <div class="popup" id="popup-add">
         <div class="popup__container">
             <button class="popup__close popup__close_card" type="button"></button>
             <h3 class="popup__title">Новое место</h3>
-            <form name="popup-form" class="popup__form" action="#">
+            <form name="popup-form-add" class="popup__form" action="#">
                 <fieldset class="popup__info">
                     <input class="popup__input popup__input_text_name" name="name" type="text" placeholder="Название">
                     <input class="popup__input popup__input_link" name="link" type="url" placeholder="Ссылка на картинку">
@@ -59,7 +59,7 @@
             </form>
         </div>
     </div>
-    <div id="openCard" class="popup">
+    <div class="popup" id="popup-image">
         <div class="popup__image-container">
             <img class="popup__image" src="#" alt="">
             <p class="popup__caption"></p>
