@@ -1,0 +1,9 @@
+.error {
+    color: rgba(255, 0, 0, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 5px 0;
+    white-space: break-spaces;
+    height: 30px;
+}
